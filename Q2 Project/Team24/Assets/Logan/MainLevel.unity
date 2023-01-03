@@ -225,8 +225,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508702604}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.73, y: -4.3, z: 0.29615793}
-  m_LocalScale: {x: 19.2347, y: 1, z: 1}
+  m_LocalPosition: {x: -1.1071, y: -6.5038, z: 0.29615793}
+  m_LocalScale: {x: 40.481453, y: 5.4075, z: 1}
   m_Children: []
   m_Father: {fileID: 1764060269}
   m_RootOrder: 0
@@ -272,7 +272,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.46226418, g: 0.20035978, b: 0.10684408, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -335,7 +335,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594818714}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.9, y: -3.36, z: 0}
+  m_LocalPosition: {x: -7.543, y: -3.352, z: 0}
   m_LocalScale: {x: 0.2934, y: 0.2934, z: 0.2934}
   m_Children: []
   m_Father: {fileID: 1258950765}
@@ -444,6 +444,8 @@ GameObject:
   m_Component:
   - component: {fileID: 728898606}
   - component: {fileID: 728898605}
+  - component: {fileID: 728898607}
+  - component: {fileID: 728898608}
   m_Layer: 0
   m_Name: Lesbiab's
   m_TagString: Untagged
@@ -516,6 +518,48 @@ Transform:
   m_Father: {fileID: 1258950765}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &728898607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728898604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cffc70d63a0bcb04d80209c413b2be48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogBox: {fileID: 468701103}
+  dialogText: {fileID: 1536113466}
+  dialog: We are the Lesbiabs!
+  playerInRange: 0
+--- !u!61 &728898608
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728898604}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.44019198}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10, y: 14}
+    newSize: {x: 10, y: 14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10, y: 11.945768}
+  m_EdgeRadius: 0
 --- !u!1 &1104273023
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,6 +572,7 @@ GameObject:
   - component: {fileID: 1104273025}
   - component: {fileID: 1104273024}
   - component: {fileID: 1104273027}
+  - component: {fileID: 1104273028}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -594,7 +639,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1104273023}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -11.61, y: -2.99, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -616,6 +661,19 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_MaxRayIntersections: 0
+--- !u!114 &1104273028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104273023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f9a2861982cf142b85ff70dcce8af5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2062004885}
 --- !u!1 &1258950764
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,7 +1052,7 @@ GameObject:
   - component: {fileID: 2062004890}
   - component: {fileID: 2062004891}
   m_Layer: 0
-  m_Name: Monkey_Idle_Spritesheet_0
+  m_Name: MonkeyPlayer
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1059,7 +1117,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062004885}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.537, y: -3.302, z: -1}
+  m_LocalPosition: {x: -11.66, y: -3.302, z: -1}
   m_LocalScale: {x: 0.5519, y: 0.5326939, z: 0.5519}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1093,15 +1151,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
-  m_LinearDrag: 6
+  m_Mass: 4
+  m_LinearDrag: 2
   m_AngularDrag: 0.05
-  m_GravityScale: 11
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 4
 --- !u!61 &2062004890
 BoxCollider2D:
   m_ObjectHideFlags: 0
