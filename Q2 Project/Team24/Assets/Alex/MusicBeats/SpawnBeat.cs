@@ -19,11 +19,12 @@ public class SpawnBeat : MonoBehaviour
     public void SpawnObject()
     {
         GameObject g = Instantiate(go, transform.position, Quaternion.identity);
-        g.GetComponent<Rigidbody2D>().velocity = new Vector2(3.5f, 0);
-        g.GetComponent<Rigidbody2D>().gravityScale = Random.Range(-0.25f, 0.25f);
+        //g.GetComponent<Rigidbody2D>().velocity = new Vector2(3.5f, 0);
+        //g.GetComponent<Rigidbody2D>().gravityScale = Random.Range(-0.25f, 0.25f);
         g.GetComponent<SpriteRenderer>().color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
         float s = Random.Range(0.1f, 0.8f);
         g.transform.localScale = new Vector3(s, s, s);
+        g.transform.position = new Vector3(Random.Range(-9f, 9f), g.transform.position.y, g.transform.position.z);
         Destroy(g, 6f);
     }
 
