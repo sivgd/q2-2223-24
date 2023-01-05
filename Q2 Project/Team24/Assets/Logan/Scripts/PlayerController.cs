@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb2D;
     Animator a;
+    private SpriteRenderer sr;
 
     private float moveSpeed;
     private float jumpForce;
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour
     {
         a = gameObject.GetComponent<Animator>();
         rb2D = gameObject.GetComponent<Rigidbody2D>();
+        sr = gameObject.GetComponent<SpriteRenderer>();
 
         moveSpeed = 1.5f;
         jumpForce = 60f;
@@ -30,6 +32,15 @@ public class PlayerController : MonoBehaviour
     {
         moveHorizontal = Input.GetAxisRaw("Horizontal");
         moveVertical = Input.GetAxisRaw("Vertical");
+
+        if(moveHorizontal < 0)
+        {
+            sr.flipX = true;
+        }
+        else
+        {
+            sr.flipX = false;
+        }
 
         if(moveHorizontal == 0)
         {
