@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb2D;
+    Animator a;
 
     private float moveSpeed;
     private float jumpForce;
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        a = gameObject.GetComponent<Animator>();
         rb2D = gameObject.GetComponent<Rigidbody2D>();
 
         moveSpeed = 1.5f;
@@ -28,6 +30,15 @@ public class PlayerController : MonoBehaviour
     {
         moveHorizontal = Input.GetAxisRaw("Horizontal");
         moveVertical = Input.GetAxisRaw("Vertical");
+
+        if(moveHorizontal == 0)
+        {
+            a.SetBool("Moving", false);
+        }
+        else
+        {
+            a.SetBool("Moving", true);
+        }
     }
 
     private void FixedUpdate()
