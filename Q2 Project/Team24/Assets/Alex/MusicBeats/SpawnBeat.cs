@@ -11,8 +11,9 @@ public class SpawnBeat : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        spawnrate = 120 / bpm;
+        spawnrate = 120.0f / bpm;
         InvokeRepeating("SpawnObject", 0, spawnrate);
+        Debug.Log(spawnrate);
 
     }
 
