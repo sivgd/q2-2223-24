@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using System;
 
-public class LesbiabsDialog: MonoBehaviour
+public class Dialog: MonoBehaviour
 {
     public GameObject dialogBox;
     public TMP_Text dialogText;

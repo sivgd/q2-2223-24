@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class SideMove : MonoBehaviour
 {
-    bool Grounded = false;
 
-    public float accel = 8;
+    public float accel = 10;
     private Rigidbody2D rb2;
     private SpriteRenderer sr;
     private Animator anim;
