@@ -24,9 +24,6 @@ public class SideMove : MonoBehaviour
         float horizontalValue = Input.GetAxis("Horizontal");
         float veritcalValue = Input.GetAxis("Vertical");
 
-        anim.SetFloat("yVelocity", rb2.velocity.y);
-        anim.SetBool
-
         if (horizontalValue == 0)
         {
             anim.SetBool("Moving", false);
@@ -38,8 +35,6 @@ public class SideMove : MonoBehaviour
     }
     private void FixedUpdate()
     {
-
-        rb2.velocity = new Vector2(horizontalValue)
 
         //Move Right
         if (Input.GetAxis("Horizontal") > 0)
