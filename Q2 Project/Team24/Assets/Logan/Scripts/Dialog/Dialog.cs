@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System;
+using UnityEngine.SceneManagement;
 
 public class Dialog: MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Dialog: MonoBehaviour
     public TMP_Text dialogText;
     public string dialog;
     public bool playerInRange;
+    public int CustomAction = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +42,10 @@ public class Dialog: MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerInRange = true;
+            if (CustomAction == 1)
+            {
+                Invoke("CustomAction1", 3f);
+            }
         }
     }
 
@@ -50,6 +56,11 @@ public class Dialog: MonoBehaviour
             playerInRange = false;
             dialogBox.SetActive(false);
         }
+    }
+
+    private void CustomAction1()
+    {
+        SceneManager.LoadScene("Level1");
     }
 
 }
