@@ -24,7 +24,6 @@ public class SpawnBeat : MonoBehaviour
         //g.GetComponent<Rigidbody2D>().gravityScale = Random.Range(-0.25f, 0.25f);
         float s = Random.Range(0.1f, 0.8f);
         g.transform.position = new Vector3(Random.Range(-9f, 9f), g.transform.position.y, g.transform.position.z);
-        Destroy(g, 6f);
     }
 
 }
