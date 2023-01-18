@@ -23,7 +23,7 @@ public class SpawnBeat : MonoBehaviour
         //g.GetComponent<Rigidbody2D>().velocity = new Vector2(3.5f, 0);
         //g.GetComponent<Rigidbody2D>().gravityScale = Random.Range(-0.25f, 0.25f);
         float s = Random.Range(0.1f, 0.8f);
-        g.transform.position = new Vector3(Random.Range(-9f, 9f), g.transform.position.y, g.transform.position.z);
+        g.transform.position = new Vector3(Random.Range(-6f, 6f), g.transform.position.y, g.transform.position.z);
     }
 
 }
