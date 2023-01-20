@@ -13,6 +13,7 @@ public class Dialog: MonoBehaviour
     public string dialog;
     public bool playerInRange;
     public int CustomAction = 0;
+    public bool talkToFrog = false;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +33,12 @@ public class Dialog: MonoBehaviour
             else
             {
                 dialogBox.SetActive(true);
+                talkToFrog = true;
                 dialogText.text = dialog;
+                if (CustomAction == 1 && talkToFrog == true)
+                {
+                    Invoke("CustomAction1", 3f);
+                }
             }
         }
     }
@@ -42,10 +48,10 @@ public class Dialog: MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerInRange = true;
-            if (CustomAction == 1)
-            {
-                Invoke("CustomAction1", 3f);
-            }
+            //if (CustomAction == 1 && talkToFrog == true)
+            //{
+            //    Invoke("CustomAction1", 3f);
+            //}
         }
     }
 
