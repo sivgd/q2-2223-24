@@ -288,7 +288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1116658853720490843, guid: 472f5ac1d67fa1c4791e05ac06f2e8c2, type: 3}
       propertyPath: m_LocalScale.x
-      value: 21.94
+      value: 13.6768465
       objectReference: {fileID: 0}
     - target: {fileID: 1116658853720490843, guid: 472f5ac1d67fa1c4791e05ac06f2e8c2, type: 3}
       propertyPath: m_LocalScale.y
@@ -296,7 +296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1116658853720490843, guid: 472f5ac1d67fa1c4791e05ac06f2e8c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.1
+      value: -0.0602
       objectReference: {fileID: 0}
     - target: {fileID: 1116658853720490843, guid: 472f5ac1d67fa1c4791e05ac06f2e8c2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -640,7 +640,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 1.5
+  m_LinearDrag: 2.8
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
@@ -660,7 +660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4773658c9af0fa44a827500121392a2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  accel: 10
+  accel: 13
 --- !u!114 &1925404428
 MonoBehaviour:
   m_ObjectHideFlags: 0
