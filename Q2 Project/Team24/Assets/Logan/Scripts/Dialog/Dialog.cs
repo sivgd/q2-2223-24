@@ -48,10 +48,6 @@ public class Dialog: MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerInRange = true;
-            //if (CustomAction == 1 && talkToFrog == true)
-            //{
-            //    Invoke("CustomAction1", 3f);
-            //}
         }
     }
 
