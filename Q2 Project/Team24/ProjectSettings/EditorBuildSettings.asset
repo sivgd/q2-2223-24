@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Logan/Credits.unity
     guid: 998b219716b2b8e41a46cbbb4a3cd561
   - enabled: 1
+    path: Assets/Logan/CreditsProgrammers.unity
+    guid: 0c403cc847b43f842b90e04dd6ae5a21
+  - enabled: 1
     path: Assets/Logan/MainLevel.unity
     guid: 177ea398dc589754c83ca68ad35946b3
   - enabled: 1
