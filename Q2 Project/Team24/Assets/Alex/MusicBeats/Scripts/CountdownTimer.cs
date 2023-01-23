@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 using System;
@@ -10,7 +10,7 @@ public class CountdownTimer : MonoBehaviour
 {
 
     public string levelToLoad;
-    private float timer = 45f;
+    private float timer = 10f; //Change this to 45f later
     private TMP_Text timerSeconds;
         
     // Start is called before the first frame update
@@ -23,10 +23,10 @@ public class CountdownTimer : MonoBehaviour
     void Update()
     {
         timer -= Time.deltaTime;
-        timerSeconds.text = timer.ToString("f0");
+        timerSeconds.text = timer.ToString("f2");
         if (timer <= 0)
         {
-            Application.LoadLevel(levelToLoad);
+            SceneManager.LoadScene("MainLevel");
         }
     }
 }
