@@ -24,6 +24,6 @@ EditorBuildSettings:
     path: Assets/Logan/Scenes/MainLevel.unity
     guid: 177ea398dc589754c83ca68ad35946b3
   - enabled: 1
-    path: Assets/Alex/MusicBeats/Level1.unity
+    path: Assets/Alex/Scenes/Level 2.unity
     guid: 28f9e814ede203949b5d66b90af2d5c9
   m_configObjects: {}
