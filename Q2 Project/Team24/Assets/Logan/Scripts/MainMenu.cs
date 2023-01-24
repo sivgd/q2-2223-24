@@ -20,15 +20,44 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void BackButton2()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
     public void Programmers()
     {
         SceneManager.LoadScene("CreditsProgrammers");
     }
 
+    public void SophiaButton()
+    {
+        SceneManager.LoadScene("CreditsSophia");
+    }
+
+    public void CarinButton()
+    {
+        SceneManager.LoadScene("CreditsCarin");
+    }
+
+    public void FinchButton()
+    {
+        SceneManager.LoadScene("CreditsFinch");
+    }
+
+    public void RansomButton()
+    {
+        SceneManager.LoadScene("CreditsRansom");
+    }
+
+    public void KatButton()
+    {
+        SceneManager.LoadScene("CreditsKat");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
-        Debug.Log("Quit!");
     }
 
 

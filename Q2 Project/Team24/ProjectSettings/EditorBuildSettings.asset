@@ -6,16 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Logan/MainMenu.unity
+    path: Assets/Logan/Scenes/MainMenu.unity
     guid: 4c337a82938c711479bb95380331ff45
   - enabled: 1
-    path: Assets/Logan/Credits.unity
+    path: Assets/Logan/Scenes/Credits/Credits.unity
     guid: 998b219716b2b8e41a46cbbb4a3cd561
   - enabled: 1
-    path: Assets/Logan/CreditsProgrammers.unity
+    path: Assets/Logan/Scenes/Credits/CreditsProgrammers.unity
     guid: 0c403cc847b43f842b90e04dd6ae5a21
   - enabled: 1
-    path: Assets/Logan/MainLevel.unity
+    path: Assets/Logan/Scenes/Credits/CreditsCarin.unity
+    guid: 367f961d92b9fee4c88d69cf0e4e7ee9
+  - enabled: 1
+    path: Assets/Logan/Scenes/Credits/CreditsSophia.unity
+    guid: f688287da4422c641811372676ee3bc3
+  - enabled: 1
+    path: Assets/Logan/Scenes/MainLevel.unity
     guid: 177ea398dc589754c83ca68ad35946b3
   - enabled: 1
     path: Assets/Alex/MusicBeats/Level1.unity
