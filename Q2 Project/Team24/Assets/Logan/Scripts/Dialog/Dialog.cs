@@ -62,7 +62,7 @@ public class Dialog: MonoBehaviour
 
     private void CustomAction1()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level 2");
     }
 
 }
