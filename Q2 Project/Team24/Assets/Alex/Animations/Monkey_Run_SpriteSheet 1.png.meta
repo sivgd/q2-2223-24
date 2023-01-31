@@ -1,40 +1,37 @@
 fileFormatVersion: 2
-guid: 5761ded4fe636734c8bbb343adbe4eb0
+guid: f03ff17774ba91f49ba3341a5b35ade1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9070696584634539884
-    second: Monkey_Run_SpriteSheet_0
+      213: -6019752543013142503
+    second: Monkey_Run_SpriteSheet 1_0
   - first:
-      213: -5253905406179782861
-    second: Monkey_Run_SpriteSheet_1
+      213: 5291143175868268523
+    second: Monkey_Run_SpriteSheet 1_1
   - first:
-      213: 2954050638093957072
-    second: Monkey_Run_SpriteSheet_2
+      213: 5693644280290159245
+    second: Monkey_Run_SpriteSheet 1_2
   - first:
-      213: -8364989153798601889
-    second: Monkey_Run_SpriteSheet_3
+      213: -5230414752817934887
+    second: Monkey_Run_SpriteSheet 1_3
   - first:
-      213: 8333077463412014082
-    second: Monkey_Run_SpriteSheet_4
+      213: 9141227709134432702
+    second: Monkey_Run_SpriteSheet 1_4
   - first:
-      213: 3145381899643548299
-    second: Monkey_Run_SpriteSheet_5
+      213: 3002623161962452370
+    second: Monkey_Run_SpriteSheet 1_5
   - first:
-      213: -7279181373214361382
-    second: Monkey_Run_SpriteSheet_6
+      213: -5810672533271758136
+    second: Monkey_Run_SpriteSheet 1_6
   - first:
-      213: -5398147515157428847
-    second: Monkey_Run_SpriteSheet_7
+      213: 3700762435511108512
+    second: Monkey_Run_SpriteSheet 1_7
   - first:
-      213: -5178803724519892519
-    second: Monkey_Run_SpriteSheet_8
+      213: -3859863174306309852
+    second: Monkey_Run_SpriteSheet 1_8
   - first:
-      213: 366243193892473027
-    second: Monkey_Run_SpriteSheet_9
-  - first:
-      213: -8290826087470388971
-    second: Monkey_Run_SpriteSheet_10
+      213: 8176618489004003811
+    second: Monkey_Run_SpriteSheet 1_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -148,91 +145,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Monkey_Run_SpriteSheet_0
-      rect:
-        serializedVersion: 2
-        x: 743
-        y: 395
-        width: 29
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6f9d703c7691ed70800000000000000
-      internalID: 9070696584634539884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monkey_Run_SpriteSheet_1
-      rect:
-        serializedVersion: 2
-        x: 942
-        y: 127
-        width: 186
-        height: 278
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33f46259ed06617b0800000000000000
-      internalID: -5253905406179782861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monkey_Run_SpriteSheet_2
-      rect:
-        serializedVersion: 2
-        x: 1229
-        y: 127
-        width: 221
-        height: 286
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d73b147765eef820800000000000000
-      internalID: 2954050638093957072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monkey_Run_SpriteSheet_3
-      rect:
-        serializedVersion: 2
-        x: 1506
-        y: 126
-        width: 247
-        height: 284
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f53c6d92fa699eb80800000000000000
-      internalID: -8364989153798601889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monkey_Run_SpriteSheet_4
+      name: Monkey_Run_SpriteSheet 1_0
       rect:
         serializedVersion: 2
         x: 12
@@ -240,20 +153,20 @@ TextureImporter:
         width: 222
         height: 261
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20c7c7c6dc905a370800000000000000
-      internalID: 8333077463412014082
+      spriteID: 91082f5c4fa857ca0800000000000000
+      internalID: -6019752543013142503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monkey_Run_SpriteSheet_5
+      name: Monkey_Run_SpriteSheet 1_1
       rect:
         serializedVersion: 2
         x: 321
@@ -261,41 +174,104 @@ TextureImporter:
         width: 205
         height: 250
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b82723b3c24a6ab20800000000000000
-      internalID: 3145381899643548299
+      spriteID: bef3c5d4faaed6940800000000000000
+      internalID: 5291143175868268523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monkey_Run_SpriteSheet_6
+      name: Monkey_Run_SpriteSheet 1_2
       rect:
         serializedVersion: 2
         x: 640
         y: 129
         width: 182
-        height: 265
+        height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad8fae99b172bfa90800000000000000
-      internalID: -7279181373214361382
+      spriteID: d8a21248e43e30f40800000000000000
+      internalID: 5693644280290159245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monkey_Run_SpriteSheet_7
+      name: Monkey_Run_SpriteSheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 127
+        width: 186
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd03568e75d967b0800000000000000
+      internalID: -5230414752817934887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monkey_Run_SpriteSheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 127
+        width: 221
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb96aed4b2a2cde70800000000000000
+      internalID: 9141227709134432702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monkey_Run_SpriteSheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 126
+        width: 247
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295d1237bd57ba920800000000000000
+      internalID: 3002623161962452370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monkey_Run_SpriteSheet 1_6
       rect:
         serializedVersion: 2
         x: 1828
@@ -303,20 +279,20 @@ TextureImporter:
         width: 210
         height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19542e18f6de515b0800000000000000
-      internalID: -5398147515157428847
+      spriteID: 8cab7340e185c5fa0800000000000000
+      internalID: -5810672533271758136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monkey_Run_SpriteSheet_8
+      name: Monkey_Run_SpriteSheet 1_7
       rect:
         serializedVersion: 2
         x: 2124
@@ -324,20 +300,20 @@ TextureImporter:
         width: 193
         height: 258
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d9958673713128b0800000000000000
-      internalID: -5178803724519892519
+      spriteID: 0a3cfbed3dfbb5330800000000000000
+      internalID: 3700762435511108512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monkey_Run_SpriteSheet_9
+      name: Monkey_Run_SpriteSheet 1_8
       rect:
         serializedVersion: 2
         x: 2427
@@ -345,20 +321,20 @@ TextureImporter:
         width: 191
         height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c88d519e38251500800000000000000
-      internalID: 366243193892473027
+      spriteID: 4295cd5b4e20f6ac0800000000000000
+      internalID: -3859863174306309852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monkey_Run_SpriteSheet_10
+      name: Monkey_Run_SpriteSheet 1_9
       rect:
         serializedVersion: 2
         x: 2720
@@ -366,14 +342,14 @@ TextureImporter:
         width: 223
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51929c1a99111fc80800000000000000
-      internalID: -8290826087470388971
+      spriteID: 3e199f4b13f297170800000000000000
+      internalID: 8176618489004003811
       vertices: []
       indices: 
       edges: []
