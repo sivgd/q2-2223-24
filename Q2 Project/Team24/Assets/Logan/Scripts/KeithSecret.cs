@@ -18,7 +18,7 @@ public class KeithSecret : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && playerInRange)
         {
-            SceneManager.LoadScene("Keith Secret");
+            SceneManager.LoadScene("KeithSecret");
         }
     }
 
