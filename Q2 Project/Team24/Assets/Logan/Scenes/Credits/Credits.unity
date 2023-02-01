@@ -155,7 +155,7 @@ RectTransform:
   m_Children:
   - {fileID: 1431548427}
   m_Father: {fileID: 1597409292}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.33121094, y: 0.82111466}
   m_AnchorMax: {x: 0.6688594, y: 0.89645827}
@@ -256,6 +256,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20816774}
   m_CullTransparentMesh: 1
+--- !u!1 &105615918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 105615919}
+  - component: {fileID: 105615921}
+  - component: {fileID: 105615920}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &105615919
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105615918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1597409292}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &105615920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105615918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b6830b7bff12d8646b6f3e857f67f9c7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &105615921
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105615918}
+  m_CullTransparentMesh: 1
 --- !u!1 &157375512
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,7 +363,7 @@ RectTransform:
   m_Children:
   - {fileID: 1668294575}
   m_Father: {fileID: 1597409292}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5214844, y: 0.48560417}
   m_AnchorMax: {x: 0.85200006, y: 0.5652812}
@@ -689,7 +764,7 @@ RectTransform:
   m_Children:
   - {fileID: 367357950}
   m_Father: {fileID: 1597409292}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.35500002, y: 0.32879168}
   m_AnchorMax: {x: 0.68700004, y: 0.40881252}
@@ -1290,7 +1365,7 @@ RectTransform:
   m_Children:
   - {fileID: 401459147}
   m_Father: {fileID: 1597409292}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.162, y: 0.48560417}
   m_AnchorMax: {x: 0.5, y: 0.5652812}
@@ -1423,7 +1498,7 @@ RectTransform:
   m_Children:
   - {fileID: 1331814047}
   m_Father: {fileID: 1597409292}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5214844, y: 0.64100003}
   m_AnchorMax: {x: 0.85200006, y: 0.7233021}
@@ -1616,6 +1691,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 105615919}
   - {fileID: 1608065498}
   - {fileID: 20816775}
   - {fileID: 1876547798}
@@ -1705,7 +1781,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kat Zayazts
+  m_text: Kat Zayats
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1ad05f2bbb605bd4dbd19aff2d37d3f8, type: 2}
   m_sharedMaterial: {fileID: 2269521145097619851, guid: 1ad05f2bbb605bd4dbd19aff2d37d3f8, type: 2}
@@ -1814,7 +1890,7 @@ RectTransform:
   m_Children:
   - {fileID: 592021518}
   m_Father: {fileID: 1597409292}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.162, y: 0.64100003}
   m_AnchorMax: {x: 0.5, y: 0.7233021}
@@ -2015,7 +2091,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7166462867539871728, guid: dc4b057ca6ca3024f815e64732f3c04b, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7166462867539871728, guid: dc4b057ca6ca3024f815e64732f3c04b, type: 3}
       propertyPath: m_AnchorMax.x

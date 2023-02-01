@@ -21,6 +21,15 @@ EditorBuildSettings:
     path: Assets/Logan/Scenes/Credits/CreditsSophia.unity
     guid: f688287da4422c641811372676ee3bc3
   - enabled: 1
+    path: Assets/Logan/Scenes/Credits/CreditsFinch.unity
+    guid: dab3be723de5e5f418db5b3ee70e9020
+  - enabled: 1
+    path: Assets/Logan/Scenes/Credits/CreditsKat.unity
+    guid: b6d66e186d601e240832de4ff5d9be47
+  - enabled: 1
+    path: Assets/Logan/Scenes/Credits/CreditsRansom.unity
+    guid: 4c2f706d1f9ebbd449d5c755362d8504
+  - enabled: 1
     path: Assets/Logan/Scenes/MainLevel.unity
     guid: 177ea398dc589754c83ca68ad35946b3
   - enabled: 1

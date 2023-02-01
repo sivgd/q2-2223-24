@@ -5,7 +5,7 @@ using UnityEngine;
 public class SideMove : MonoBehaviour
 {
 
-    public float accel = 10;
+    public float accel = 15;
     private Rigidbody2D rb2;
     private SpriteRenderer sr;
     private Animator anim;
