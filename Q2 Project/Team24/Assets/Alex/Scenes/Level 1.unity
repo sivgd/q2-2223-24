@@ -215,7 +215,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -97998696789697437, guid: 354c079264407d649ba9c381e619e17c, type: 3}
       propertyPath: m_Constraints
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1744925344294316149, guid: 354c079264407d649ba9c381e619e17c, type: 3}
       propertyPath: m_Name
@@ -1858,6 +1858,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3929833315965262357, guid: c51c3138ffa250c47bd7d4578c5a0d64, type: 3}
+      propertyPath: m_LinearDrag
+      value: 1.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3929833315965262378, guid: c51c3138ffa250c47bd7d4578c5a0d64, type: 3}
       propertyPath: m_RootOrder
       value: 2
