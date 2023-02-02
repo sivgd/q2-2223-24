@@ -9,7 +9,7 @@ public class KillPlayer : MonoBehaviour
     {
         if (collision.gameObject.tag == "Arrow")
         {
-            SceneManager.LoadScene("MainLevel");
+            SceneManager.LoadScene("LevelLost");
         }
     }
 }

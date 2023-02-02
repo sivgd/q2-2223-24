@@ -23,7 +23,7 @@ public class Jump : MonoBehaviour
         anim.SetFloat("yVelocity", rb2.velocity.y);
         anim.SetBool("Grounded", grounded);
 
-        if (Input.GetKeyDown("w") && grounded == true)
+        if (Input.GetKeyDown(KeyCode.Space) && grounded == true)
         {
             rb2.AddForce(new Vector2(0, jumpStrength));
         }

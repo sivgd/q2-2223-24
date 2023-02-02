@@ -6,11 +6,11 @@ using UnityEngine.UI;
 using TMPro;
 using System;
 
-public class CountdownTimer2 : MonoBehaviour
+public class CountdownTimer : MonoBehaviour
 {
 
     public string levelToLoad;
-    private float timer = 30f; //Change this to 45f later
+    private float timer = 50f; //Change this to 45f later
     private TMP_Text timerSeconds;
         
     // Start is called before the first frame update
@@ -26,7 +26,7 @@ public class CountdownTimer2 : MonoBehaviour
         timerSeconds.text = timer.ToString("f2");
         if (timer <= 0)
         {
-            SceneManager.LoadScene("Duplicate1");
+            SceneManager.LoadScene("WinScene");
         }
     }
 }

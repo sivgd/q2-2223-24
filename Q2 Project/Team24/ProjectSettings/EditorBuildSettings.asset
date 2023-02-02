@@ -30,12 +30,27 @@ EditorBuildSettings:
     path: Assets/Logan/Scenes/Credits/CreditsRansom.unity
     guid: 4c2f706d1f9ebbd449d5c755362d8504
   - enabled: 1
-    path: Assets/Logan/Scenes/MainLevel.unity
-    guid: 177ea398dc589754c83ca68ad35946b3
+    path: Assets/Logan/Scenes/Main Level.unity
+    guid: 57ec75ef42af2624296c036a13756c4e
+  - enabled: 1
+    path: Assets/Logan/Scenes/Duplicate1.unity
+    guid: db3e7e738649a4e49858cdbc7c789103
   - enabled: 1
     path: Assets/Alex/Scenes/Level 1.unity
     guid: 71caed32b6fc63e4ca6308f9d64845b3
   - enabled: 1
+    path: Assets/Alex/Scenes/Level 2.unity
+    guid: e22a22a21a8ed38408ca68f0702ee474
+  - enabled: 1
     path: Assets/Logan/Scenes/Credits/KeithSecret.unity
     guid: f688287da4422c641811372676ee3bc3
+  - enabled: 1
+    path: Assets/Logan/Scenes/Level Complete.unity
+    guid: 4f898fb69ac19b24db66fadbc2296d18
+  - enabled: 1
+    path: Assets/Logan/Scenes/LevelLost.unity
+    guid: dbe9a358389d2dc43afe277a8a455423
+  - enabled: 1
+    path: Assets/Logan/Scenes/EndScene.unity
+    guid: c3b12c965912ff948b60ab31d78b7aec
   m_configObjects: {}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PortalTeleport2 : MonoBehaviour
+public class PortalTeleport : MonoBehaviour
 {
     public bool playerInRange;
 
@@ -18,7 +18,7 @@ public class PortalTeleport2 : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && playerInRange)
         {
-            SceneManager.LoadScene("Level 2");
+            SceneManager.LoadScene("Level 1");
         }
     }
 

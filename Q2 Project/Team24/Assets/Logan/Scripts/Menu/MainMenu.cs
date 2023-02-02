@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("MainLevel");
+        SceneManager.LoadScene("Main Level");
     }
 
     public void Credits()
@@ -53,6 +53,21 @@ public class MainMenu : MonoBehaviour
     public void KatButton()
     {
         SceneManager.LoadScene("CreditsKat");
+    }
+
+    public void ContinueL1()
+    {
+        SceneManager.LoadScene("Duplicate1");
+    }
+
+    public void ContinueL2()
+    {
+        SceneManager.LoadScene("WinScene");
+    }
+
+    public void LevelLose()
+    {
+        SceneManager.LoadScene("Main Level");
     }
 
     public void QuitGame()
