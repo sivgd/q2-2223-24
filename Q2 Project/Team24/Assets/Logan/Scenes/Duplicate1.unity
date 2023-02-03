@@ -2198,7 +2198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogBox: {fileID: 468701103}
   dialogText: {fileID: 1536113466}
-  dialog: 'Level 2: Survive the falling arrows for a total of 50 seconds to win!'
+  dialog: 'Level 2: Survive the falling arrows for a total of 30 seconds to win!'
   playerInRange: 0
 --- !u!212 &901270823
 SpriteRenderer:

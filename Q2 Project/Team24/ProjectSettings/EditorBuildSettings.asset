@@ -45,7 +45,7 @@ EditorBuildSettings:
     path: Assets/Logan/Scenes/Credits/KeithSecret.unity
     guid: f688287da4422c641811372676ee3bc3
   - enabled: 1
-    path: Assets/Logan/Scenes/Level Complete.unity
+    path: Assets/Logan/Scenes/LevelComplete.unity
     guid: 4f898fb69ac19b24db66fadbc2296d18
   - enabled: 1
     path: Assets/Logan/Scenes/LevelLost.unity

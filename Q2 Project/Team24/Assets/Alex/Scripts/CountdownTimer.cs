@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using TMPro;
 using System;
 
-public class CountdownTimer2 : MonoBehaviour
+public class CountdownTimer : MonoBehaviour
 {
 
     public string levelToLoad;
@@ -26,7 +26,7 @@ public class CountdownTimer2 : MonoBehaviour
         timerSeconds.text = timer.ToString("f2");
         if (timer <= 0)
         {
-            SceneManager.LoadScene("Duplicate1");
+            SceneManager.LoadScene("LevelComplete");
         }
     }
 }
