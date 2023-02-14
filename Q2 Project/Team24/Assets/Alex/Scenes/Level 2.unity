@@ -1817,7 +1817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da4a54d8b6f59054184dac4125d30ecd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bpm: 240
+  bpm: 120
   go: {fileID: 767406559}
 --- !u!82 &1586295255
 AudioSource:
